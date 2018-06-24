@@ -1,0 +1,63 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '1.2.3'
+}
+
+group 'titanic_spark_xgboost_batch'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'scala'
+
+configurations {
+    provided
+}
+
+sourceSets {
+    main {
+        compileClasspath += configurations.provided
+    }
+}
+
+compileJava   {
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+}
+
+repositories {
+    jcenter()
+    mavenLocal()
+    mavenCentral()
+    maven {
+        url "https://oss.sonatype.org/content/repositories/snapshots"
+    }
+}
+
+dependencies {
+    compile group: 'org.scala-lang', name: 'scala-library', version: '2.11.8'
+    compile group: 'org.apache.spark', name: 'spark-core_2.11', version: '2.2.0'
+    compile group: 'org.apache.spark', name: 'spark-sql_2.11', version: '2.2.0'
+    compile group: 'org.apache.spark', name: 'spark-mllib_2.11', version: '2.2.0'
+    compile group: 'com.github.hirofumi', name: 'xgboost4j-spark_2.11', version: '0.7.1-p1'
+
+
+
+
+
+}
+
+jar {
+    classifier = 'all'
+    manifest {
+        attributes 'Implementation-Version': version,
+        'Main-Class': 'titanic.RunApp'
+    }
+    include{sourceSets.main.output.classesDir}
+    zip64 true
+}
+
+shadowJar {
+    classifier = 'shadow'
+    append 'reference.conf'
+    zip64 true
+}
