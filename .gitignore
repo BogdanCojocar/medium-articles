@@ -16,3 +16,5 @@ metadata
 offsets/
 sources/
 stages/
+*.jar
+*.zip
