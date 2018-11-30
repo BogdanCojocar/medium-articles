@@ -1,0 +1,60 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '1.2.3'
+}
+
+group 'spark_batch_job'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'scala'
+
+configurations {
+    provided
+}
+
+sourceSets {
+    main {
+        compileClasspath += configurations.provided
+    }
+}
+
+compileJava   {
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+}
+
+repositories {
+    jcenter()
+    mavenLocal()
+    mavenCentral()
+    maven {
+        url "https://oss.sonatype.org/content/repositories/snapshots"
+    }
+}
+
+dependencies {
+    compile group: 'org.scala-lang', name: 'scala-library', version: '2.11.8'
+    compile group: 'org.apache.spark', name: 'spark-core_2.11', version: '2.2.0'
+    compile group: 'org.apache.spark', name: 'spark-sql_2.11', version: '2.2.0'
+    compile group: 'com.datastax.spark', name: 'spark-cassandra-connector_2.11', version: '2.3.0'
+    compile group: 'com.amazonaws', name: 'aws-java-sdk', version: '1.7.4'
+    compile group: 'org.apache.hadoop', name: 'hadoop-aws', version: '2.7.3'
+
+}
+
+jar {
+    classifier = 'all'
+    manifest {
+        attributes 'Implementation-Version': version,
+        'Main-Class': 'com.app.RunBatchJob'
+    }
+    include{sourceSets.main.output.classesDir}
+    zip64 true
+}
+
+shadowJar {
+    classifier = 'shadow'
+    append 'reference.conf'
+    zip64 true
+}
