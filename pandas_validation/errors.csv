@@ -1,0 +1,4 @@
+,col
+0,"{row: 2, column: ""dec3""}: ""ee"" is not decimal"
+1,"{row: 3, column: ""dec2""}: ""tt"" is not decimal"
+2,"{row: 3, column: ""dec4""}: ""xx"" is not decimal"
