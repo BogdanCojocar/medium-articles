@@ -1,0 +1,3 @@
+confluent_kafka
+ksql
+nltk
