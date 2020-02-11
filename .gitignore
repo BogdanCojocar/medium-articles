@@ -18,3 +18,4 @@ sources/
 stages/
 *.jar
 *.zip
+*.pyc
