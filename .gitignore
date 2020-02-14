@@ -19,3 +19,4 @@ stages/
 *.jar
 *.zip
 *.pyc
+fraud_model/
