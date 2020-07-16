@@ -11,3 +11,6 @@
 * scala_notebook_test - [How to run Scala and Spark in the Jupyter notebook](https://medium.com/@bogdan.cojocar/how-to-run-scala-and-spark-in-the-jupyter-notebook-328a80090b3b)
 * mlflow-automl - [How to build an integration between AutoML and MLFlow](https://towardsdatascience.com/how-to-build-an-integration-between-automl-and-mlflow-6d66d4bdc4d1)
 * realtime_kafka - [Building a real-time prediction pipeline using Spark Structured Streaming and Microservices](https://towardsdatascience.com/building-a-real-time-prediction-pipeline-using-spark-structured-streaming-and-microservices-626dc20899eb)
+* realtime_fraud_detection - [How to build a real-time fraud detection pipeline using Faust and MLFlow](https://towardsdatascience.com/how-to-build-a-real-time-fraud-detection-pipeline-using-faust-and-mlflow-24e787dd51fa)
+
+If you enjoyed my articles and find them useful, [please feel free to buy me a beer](https://www.buymeacoffee.com/paxdata). I actually spend a lot of time making them. Cheers!
