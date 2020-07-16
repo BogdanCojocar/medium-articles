@@ -1,0 +1,28 @@
+apiVersion: "sparkoperator.k8s.io/v1beta2"
+kind: SparkApplication
+metadata:
+  name: spark-job
+  namespace: default
+spec:
+  type: Python
+  pythonVersion: "3"
+  mode: cluster
+  image: "uprush/apache-spark-pyspark:2.4.5"
+  imagePullPolicy: Always
+  mainApplicationFile: local:////opt/spark/examples/src/main/python/pi.py
+  sparkVersion: "2.4.5"
+  restartPolicy:
+    type: OnFailure
+    onFailureRetries: 2
+  driver:
+    cores: 1
+    memory: "1G"
+    labels:
+      version: 2.4.5
+    serviceAccount: spark
+  executor:
+    cores: 1
+    instances: 1
+    memory: "1G"
+    labels:
+      version: 2.4.5
