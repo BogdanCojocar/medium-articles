@@ -12,5 +12,7 @@
 * mlflow-automl - [How to build an integration between AutoML and MLFlow](https://towardsdatascience.com/how-to-build-an-integration-between-automl-and-mlflow-6d66d4bdc4d1)
 * realtime_kafka - [Building a real-time prediction pipeline using Spark Structured Streaming and Microservices](https://towardsdatascience.com/building-a-real-time-prediction-pipeline-using-spark-structured-streaming-and-microservices-626dc20899eb)
 * realtime_fraud_detection - [How to build a real-time fraud detection pipeline using Faust and MLFlow](https://towardsdatascience.com/how-to-build-a-real-time-fraud-detection-pipeline-using-faust-and-mlflow-24e787dd51fa)
+* terraform_eks_spark - [How to run a PySpark job in Kubernetes (AWS EKS)](https://towardsdatascience.com/how-to-run-a-pyspark-job-in-kubernetes-aws-eks-d886193dac3c)
+* s3a_spark - [How to read parquet data from S3 using the S3A protocol and temporary credentials in PySpark](https://medium.com/@bogdan.cojocar/how-to-read-parquet-data-from-s3-using-the-s3a-protocol-and-temporary-credentials-in-pyspark-f94071bf8c6a)
 
 If you enjoyed my articles and find them useful, [please feel free to buy me a beer](https://www.buymeacoffee.com/paxdata). I actually spend a lot of time making them. Cheers!
