@@ -14,4 +14,4 @@
 * realtime_fraud_detection - [How to build a real-time fraud detection pipeline using Faust and MLFlow](https://towardsdatascience.com/how-to-build-a-real-time-fraud-detection-pipeline-using-faust-and-mlflow-24e787dd51fa)
 * terraform_eks_spark - [How to run a PySpark job in Kubernetes (AWS EKS)](https://towardsdatascience.com/how-to-run-a-pyspark-job-in-kubernetes-aws-eks-d886193dac3c)
 * s3a_spark - [How to read parquet data from S3 using the S3A protocol and temporary credentials in PySpark](https://medium.com/@bogdan.cojocar/how-to-read-parquet-data-from-s3-using-the-s3a-protocol-and-temporary-credentials-in-pyspark-f94071bf8c6a)
-* pyflink_riverml - [Building a Credit Card Fraud Detection Online Training Pipeline with River ML and Apache Flink] https://medium.com/towards-data-science/building-a-credit-card-fraud-detection-online-training-pipeline-with-river-ml-and-apache-flink-25549b89583d
+* pyflink_riverml - [Building a Credit Card Fraud Detection Online Training Pipeline with River ML and Apache Flink](https://medium.com/towards-data-science/building-a-credit-card-fraud-detection-online-training-pipeline-with-river-ml-and-apache-flink-25549b89583d)
