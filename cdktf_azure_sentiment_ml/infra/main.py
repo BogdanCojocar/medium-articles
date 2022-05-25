@@ -15,8 +15,8 @@ class StackVariables:
     vn_conn_function_name = f"{stack_name}-vn-conn"
     cog_name = f"{stack_name}-ml-cognitive"
     # TODO: add the values here before deployment
-    azure_language_endpoint = "https://cdktfsentml-ml-cognitive.cognitiveservices.azure.com/"
-    azure_language_key = "bf9663e5ceaa42ed8dc5db81196d18ae"
+    azure_language_endpoint = ""
+    azure_language_key = ""
 
     tag = {
         "ENV": "Prod",
