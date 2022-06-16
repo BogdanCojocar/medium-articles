@@ -1,0 +1,5 @@
+azure-identity
+azure-keyvault-secrets
+azure-core
+azure-ai-textanalytics
+seldon-core
