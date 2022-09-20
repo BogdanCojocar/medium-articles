@@ -17,5 +17,6 @@
 * pyflink_riverml - [Building a Credit Card Fraud Detection Online Training Pipeline with River ML and Apache Flink](https://medium.com/towards-data-science/building-a-credit-card-fraud-detection-online-training-pipeline-with-river-ml-and-apache-flink-25549b89583d)
 * cdktf_azure_sentiment_ml - [Building a Serverless Azure ML Service Using Cognitive and CDKTF](https://towardsdatascience.com/building-a-serverless-azure-ml-service-using-cognitive-and-cdktf-8f1217f39bbb)
 * aks_seldon - [Building a Health Entity labelling service using Azure Kubernetes Service, Seldon Core and Azure Cognitive](https://towardsdatascience.com/building-a-health-entity-labelling-service-using-azure-kubernetes-service-seldon-core-and-azure-5dd6871a338)
+* neo4j_companies_knn - [Predicting similar political donors for UK parties using graph data](https://medium.com/@bogdan.cojocar/predicting-similar-political-donors-for-uk-parties-using-graph-data-c113ce4bebc3)
 
 You can stay up to date with the latest stories I post on medium [here](https://medium.com/@bogdan.cojocar/membership)
