@@ -19,5 +19,6 @@
 * aks_seldon - [Building a Health Entity labelling service using Azure Kubernetes Service, Seldon Core and Azure Cognitive](https://towardsdatascience.com/building-a-health-entity-labelling-service-using-azure-kubernetes-service-seldon-core-and-azure-5dd6871a338)
 * neo4j_companies_knn - [Predicting similar political donors for UK parties using graph data](https://medium.com/@bogdan.cojocar/predicting-similar-political-donors-for-uk-parties-using-graph-data-c113ce4bebc3)
 * xgboost_docker - [PySpark ML and XGBoost setup using a docker image](https://medium.com/@bogdan.cojocar/pyspark-ml-and-xgboost-setup-using-a-docker-image-e2e6122cae0f)
+* xgboost_pyspark - [PySpark integration with the native python package of XGBoost](https://medium.com/@bogdan.cojocar/pyspark-integration-with-the-native-python-package-of-xgboost-3ac6d9082776)
 
 You can stay up to date with the latest stories I post on medium [here](https://medium.com/@bogdan.cojocar/membership)
